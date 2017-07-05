@@ -69,7 +69,7 @@
     </tr>
     </table>
 </form:form>
-<a href="/userdata/0" target="_blank">Добавить пользователя</a>
+<a href="/userdata/0">Добавить пользователя</a>
 
     <c:if test="${!empty listUsers}">
         <table class="tg">
@@ -84,7 +84,7 @@
             <c:forEach items="${listUsers}" var="user">
                 <tr>
                     <td>${user.id}</td>
-                    <td><a href="/userdata/${user.id}" target="_blank">${user.name}</a></td>
+                    <td><a href="/userdata/${user.id}">${user.name}</a></td>
                     <td>${user.age}</td>
                     <td>${user.admin}</td>
                     <td>${user.createDate}</td>
