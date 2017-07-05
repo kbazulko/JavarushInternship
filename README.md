@@ -5,7 +5,7 @@ CRUD приложение по созданию базы данных польз
 Проект был создан в InteliJIdea с применением технологий
 
 - Maven
-- Sring framework
+- Spring framework
 - Hibernate
 - mySQL
 
